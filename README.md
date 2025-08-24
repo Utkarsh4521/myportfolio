@@ -16,4 +16,4 @@ It contains my bio, projects, and contact information.
 ##  Tech Stack
 - **HTML5** – Structure of the website  
 - **CSS3** – Styling and responsive design  
-- **JavaScript (ES6)** – Interactivity and dynamic content  
+- **JavaScript (ES6)** – Interactivity and dynamic content 
