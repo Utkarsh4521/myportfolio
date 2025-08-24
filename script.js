@@ -13,4 +13,21 @@ document.addEventListener("DOMContentLoaded", function() {
       btn.textContent = "Show About Me";
     }
   });
+
+  function showGreeting() {
+    const hour = new Date().getHours();
+    let message = "";
+
+    if (hour < 12) {
+      message = "Good Morning!";
+    } else if (hour < 18) {
+      message = "Good Afternoon!";
+    } else {
+      message = "Good Evening!";
+    }
+
+    document.getElementById("greeting").textContent = message;
+  }
+
+  showGreeting();
 });
